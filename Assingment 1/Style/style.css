@@ -1,0 +1,20 @@
+.outer{
+    background-color: green;
+    border: grey;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    border-style: solid;
+    border-color:#f3d00a;
+    color: #f3d00a;
+    font-size: 40px;
+}
+
+.inner{
+    background-color:#fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 3rem;
+
+}
