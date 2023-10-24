@@ -1,0 +1,24 @@
+.grid1 { grid-area: header; }
+.grid2 { grid-area: main; height:500px;}
+.grid3 { grid-area: left; height:500px;}
+.grid4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left left main main main main '
+    'footer footer footer footer footer footer';
+  gap: 3px;
+  background-color: #020fbe;
+  padding: 3px;
+  height: auto;
+  width: 1200px;
+}
+
+.grid-container > div {
+  background-color: #fff;
+  padding: 5px 0;
+  font-size: 30px;
+  color: rgb(255, 38, 0);
+}
